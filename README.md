@@ -22,7 +22,7 @@ Note : The remote working directory you are using should be already created else
 Step 3. In Launch method you need to select the following option mentioned in the image below. If your container has setup SSH, then you can use the same as well. As my container didn't have SSH installed, so I went with the first option.
 <img width="1019" alt="image" src="https://github.com/nihal-2059/Jenkins-slave-docker/assets/81910297/99619a8c-2229-4d17-af42-02879700078d">
 
-Step 4. Just save and the agent would be setup. Now navigate to the jenkins node page,
+Step 4. Just save and the agent would be setup. Now navigate to the jenkins node page where Jenkinslave is name of the node you configure.
 <img width="420" alt="image" src="https://github.com/nihal-2059/Jenkins-slave-docker/assets/81910297/3046bc80-8950-4cc8-9a7c-5beff26756d9">
 
 Step 5. Here you would be seeing the required commands that you need to run on the slave machine.
@@ -31,3 +31,8 @@ Step 5. Here you would be seeing the required commands that you need to run on t
 Note : Please update the IP address or the DNS names accordingly. Also if you are testing it out locally, make sure that the URL to access the master is changed to IP address of your machine and don't set it to localhost. Else it will fail.
 
 Step 6. Almost at the end. Make sure to run the *JAVA* command using <b>nohup</b> and <b>&</b> so that it runs in the background.
+You will see the following,
+<img width="1068" alt="image" src="https://github.com/nihal-2059/Jenkins-slave-docker/assets/81910297/739f3fe2-b5a4-4908-964d-81b402f704a1">
+
+Now you should be able to use the slave node. You can configure jobs to specifically run on the slave nodes by using the Labels.
+Enjoy!Cheers!
