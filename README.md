@@ -23,6 +23,7 @@ Step 3. In Launch method you need to select the following option mentioned in th
 <img width="1019" alt="image" src="https://github.com/nihal-2059/Jenkins-slave-docker/assets/81910297/99619a8c-2229-4d17-af42-02879700078d">
 
 Step 4. Just save and the agent would be setup. Now navigate to the jenkins node page where Jenkinslave is name of the node you configure.
+
 <img width="420" alt="image" src="https://github.com/nihal-2059/Jenkins-slave-docker/assets/81910297/3046bc80-8950-4cc8-9a7c-5beff26756d9">
 
 Step 5. Here you would be seeing the required commands that you need to run on the slave machine.
